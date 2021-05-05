@@ -12,10 +12,12 @@ class Song
   
   def Song.create
     song = self.new
-    #song.name = name
-    #song.artist = artist
     @@all << song
     return song
   end
+  
+  def Song.new_by_name(name)
+    
+  end 
  
 end
